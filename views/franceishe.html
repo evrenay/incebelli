@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>İNCEBELLİ Cafe&Bistro</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="assets/js/modernizr.custom.js"></script>
+    
+  </head>
+  <style>.alert{
+	  display: none;
+  } </style>
+  <body style="background-color: #ffffff">
+
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logo"><a href="index.html#home">İNCEBELLİ</a></h1>
+			<i class="fa fa-arrow-right menu-close"></i>
+			<a href="http://incebelli.net">AnaSayfa</a>
+			<a href="http://incebelli.net/hakkimizda">Hakkımızda</a>
+			<a href="http://incebelli.net/franceishe">Franceishe</a>
+			<a href="http://incebelli.net/galeri">GALERİ</a>
+			<a href="http://incebelli.net/menu">MENU</a>
+			<a href="#contact">İLETİŞİM</a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-dribbble"></i></a>
+			<a href="#"><i class="fa fa-envelope"></i></a>
+		</div>
+
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="fa fa-bars"></i></div>
+	</nav>
+	
+	<!-- MAIN IMAGE SECTION -->
+	<div id="aboutwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+
+				</div>
+			</div><!-- row -->
+		</div><!-- /container -->
+	</div><!-- /aboutwrap -->
+
+	<!-- CHART IMAGE SECTION -->
+    <div id="chartwrap">
+	    <div class="container">
+	      <div class="row mt">
+			  <div class="col-lg-8">
+			  	<img class="img-responsive" src="assets/img/franchising.jpg" alt="">
+			  </div><!-- col-lg-8 -->
+
+			  <div class="col-lg-4">
+				  <div class="alert alert-danger alert-dismissible" id="myAlert">
+					  <a id="linkClose" class="close">&times;</a>
+					  <h5>Boş Alan Bırakmayınız.</h5>
+				  </div>
+				  <div class="alert alert-success alert-dismissible" id="myAlertt">
+					  <a id="linkClosee" class="close">&times;</a>
+					  <h5>Başvurunuz başarılı bir şekilde gönderilmiştir.</h5>
+				  </div>
+
+
+
+					  <h2>Franchise Başvuru Formu</h2>
+					  <form class="form-horizontal" method="post" action="/franceishe">
+						  <div class="form-group">
+							  <label class="control-label col-sm-3" for="Ad">Ad:</label>
+							  <div class="col-sm-9">
+								  <input type="text" class="form-control" id="ad" placeholder="" name="ad">
+							  </div>
+						  </div>
+						  <div class="form-group">
+							  <label class="control-label col-sm-3" for="soyad">Soyad:</label>
+							  <div class="col-sm-9">
+								  <input type="text" class="form-control" id="soyad" placeholder="" name="soyad">
+							  </div>
+						  </div>
+						  <div class="form-group">
+							  <label class="control-label col-sm-3" for="email">Email:</label>
+							  <div class="col-sm-9">
+								  <input type="email" class="form-control" id="email" placeholder="" name="email">
+							  </div>
+						  </div>
+						  <div class="form-group">
+							  <label class="control-label col-sm-3" for="tel">Cep Telefon:</label>
+							  <div class="col-sm-9">
+								  <input type="text" class="form-control" id="tel" placeholder="" name="tel">
+							  </div>
+						  </div>
+						  <div class="form-group">
+							  <label  class="control-label col-sm-3" for="comment">Eklemek istedikleriniz:</label>
+							  <div class="col-sm-9">
+								  <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
+							  </div>
+						  </div>
+
+						  <div class="form-group">
+							  <div class="col-sm-offset-6 col-sm-9">
+								  <button id="btnShow" type="submit" onclick="formKontrol()" class="btn btn-primary btn-md">Submit</button>
+							  </div>
+						  </div>
+					  </form>
+			  </div><!-- col-lg-4 -->
+	      </div><!-- /row -->
+	    </div><!-- /.container -->
+    </div><!-- chartwrap -->
+
+	<!-- SERVICES SECTION -->
+	<div id="hakkimizda">
+		<div class="container">
+			<div class="row mt">
+				<!-- Srvice 1 -->
+				<div class="col-lg-1 centered">
+					<i class="fa fa-certificate"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>Kaliteli Dizayn</h3>
+					<p>Eşsiz dizaynımızla sizlere hizmete başlamak için sabırsızlanıyoruz.</p>
+				</div>
+
+				<!-- Srvice 2 -->
+				<div class="col-lg-1 centered">
+					<i class="fa fa-question-circle"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>Normal dışında</h3>
+					<p>İncebellide içtiğiniz çayın tadını başka yerde bulamıcaksınız.</p>
+				</div>
+
+				<!-- Srvice 3 -->
+				<div class="col-lg-1 centered">
+					<i class="fa fa-globe"></i>
+				</div>
+				<div class="col-lg-3">
+					<h3>Heryerde Sizleyiz</h3>
+					<p>Türkiye'nin çoğu işlek meydanlarında incebelli bardakla karşılaşabilirsiniz.Gelin bir çayımızı için :)</p>
+				</div>
+				
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- services section -->
+	
+	
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript">
+        function formKontrol() {
+            var adi= document.getElementById("ad").value;
+            var soyadii= document.getElementById("soyad").value;
+            var emaili= document.getElementById("email").value;
+            var teli= document.getElementById("tel").value;
+            var commenti= document.getElementById("comment").value;
+            if(adi == "" || soyadii=="" || emaili=="" || teli =="" || commenti==""){
+                $("#myAlertt").css("display","");
+                $("#myAlert").hide().show("medium");
+			}
+			else{
+                $("#myAlert").css("display","");
+                $("#myAlertt").hide().show("medium");
+
+			}
+
+        }
+
+
+
+	</script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/classie.js"></script>
+  </body>
+</html>
