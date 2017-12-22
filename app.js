@@ -38,6 +38,10 @@ app.use(function(req, res, next) {
   err.status = 404;
   next(err);
 });
+var port = 3000;
+var server = app.listen(port, function() {
+    console.log("Application connected on port " + port);
+});
 
 // error handler
 app.use(function(err, req, res, next) {
